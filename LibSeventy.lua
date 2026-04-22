@@ -3042,7 +3042,7 @@ local Library do
                 BackgroundTransparency = BgTransparency,
                 BorderSizePixel = 0,
                 AnchorPoint = Vector2New(0, 1),
-                Position = UDim2New(0, 0, 1, 0),
+                Position = UDim2New(0, 0, 1, -PROG_H),
                 Size = UDim2New(1, 0, 0, PROG_H),
                 ClipsDescendants = true,
                 ZIndex = 11,
